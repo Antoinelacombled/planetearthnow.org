@@ -1,0 +1,16 @@
+.header-mega-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-icon{
+    height: 40px;
+    object-fit: scale-down;
+}
