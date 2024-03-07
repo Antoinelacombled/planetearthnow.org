@@ -1,0 +1,8 @@
+.container-footer {
+    background-color: var(--blue-color);
+    height: 200px;
+}
+
+.footer-text {
+    color: white;
+}

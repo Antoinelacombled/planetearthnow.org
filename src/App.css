@@ -1,0 +1,44 @@
+* {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  --blue-color: #2e519f;
+  --green-color: #339933;
+  --black-color: #1c1d27;
+  --orange-color: #f19d38;
+  --white-color: #ffffff;
+
+}
+
+.super-container-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  z-index: 9999;
+}
+
+.square {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.square.blue {
+  background-color: var(--blue-color);
+  left: 0;
+}
+
+.square.green {
+  background-color: var(--green-color);
+  right: 0;
+}

@@ -1,0 +1,69 @@
+.mega-container-mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.square-mission {
+    color: white;
+    font-family: "Bowlby One";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-wrap: nowrap;
+    letter-spacing: 3px;
+}
+
+p {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+button {
+    font-family: "Bowlby One";
+    border: solid white 1px;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.one {
+    height: 480px;
+    width: 440px;
+
+}
+
+.two {
+    height: 480px;
+    width: 440px;
+    background: linear-gradient(0deg, rgba(32, 97, 32, 0.4) 0%, rgba(0, 0, 0, 0) 57%), linear-gradient(0deg, rgba(51, 153, 51, 0.84), rgba(51, 153, 51, 0.84));
+}
+
+.square-mission.one {
+    justify-content: center;
+}
+
+.white {
+    background-color: white;
+}

@@ -1,0 +1,106 @@
+.mega-container-action {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.image-container {
+    position: relative;
+    margin: 1em;
+    width: 450px;
+
+}
+
+.title-container-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.img-action {
+    display: flex;
+    justify-content: center;
+}
+
+.title-action {
+    display: flex;
+    justify-content: center;
+    font-family: "Bowlby One";
+    color: var(--blue-color);
+}
+
+.text-action {
+    font-family: "Gilroy";
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--blue-color);
+}
+
+.container-img-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.img-action {
+    margin-top: 27em;
+    object-fit: cover;
+    opacity: 0;
+    border-radius: 5px;
+}
+
+.img-action.agriculture {
+    background-color: var(--orange-color);
+    height: 489px;
+
+}
+
+.img-action.reforestation {
+    background-color: var(--orange-color);
+    height: 489px;
+}
+
+.img-action.biodiversite {
+    background-color: var(--orange-color);
+    height: 489px;
+}
+
+.button-action {
+    position: absolute;
+}
+
+.title-overlay {
+    opacity: 0;
+    letter-spacing: 2px;
+    font-size: 19px;
+    width: 50%;
+    position: absolute;
+    bottom: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    padding: 10px;
+    font-family: "Bowlby One";
+    border: 1.5px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.title-overlay:hover {
+    background: none;
+    transition: 0.2s ease;
+}
