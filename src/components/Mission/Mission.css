@@ -7,6 +7,8 @@
 }
 
 .square-mission {
+    position: relative;
+    margin-top: 5em;
     color: white;
     font-family: "Bowlby One";
     display: flex;
@@ -26,12 +28,13 @@ h1 {
 }
 
 p {
+    letter-spacing: 1px;
     padding-top: 4em;
     padding-bottom: 4em;
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
     margin-bottom: 30px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 button {
@@ -46,18 +49,19 @@ button {
     font-size: 14px;
     cursor: pointer;
     border-radius: 9px;
+    letter-spacing: 1.5px;
 }
 
 .one {
-    height: 480px;
-    width: 440px;
+    height: 580px;
+    width: 540px;
 
 }
 
 .two {
-    height: 480px;
-    width: 440px;
-    background: linear-gradient(0deg, rgba(32, 97, 32, 0.4) 0%, rgba(0, 0, 0, 0) 57%), linear-gradient(0deg, rgba(51, 153, 51, 0.84), rgba(51, 153, 51, 0.84));
+    height: 580px;
+    width: 540px;
+
 }
 
 .square-mission.one {
@@ -66,4 +70,11 @@ button {
 
 .white {
     background-color: white;
+}
+
+.img-mission-two {
+    width: 100%;
+    height: auto;
+    display: block;
+
 }

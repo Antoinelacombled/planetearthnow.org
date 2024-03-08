@@ -58,7 +58,7 @@ function App() {
         <Hero />
         <Mission />
         <Action />
-        {/* <Axe /> */}
+        <Axe />
         <Footer />
       </div>
     </>

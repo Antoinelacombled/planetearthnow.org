@@ -75,19 +75,16 @@ function Action() {
           <img ref={refAgriculture} src={agriculture} className='img-action agriculture'
             onMouseEnter={() => bounceIn(refAgriculture.current)}
             onMouseLeave={() => bounceOut(refAgriculture.current)} />
-          <div ref={overlayAgri} className='title-overlay'>Agriculture</div>
         </div>
         <div className='image-container'>
           <img ref={refReforestation} src={reforestation} className='img-action reforestation'
             onMouseEnter={() => bounceIn(refReforestation.current)}
             onMouseLeave={() => bounceOut(refReforestation.current)} />
-          <div ref={overlayRefo} className='title-overlay'>Reforestation</div>
         </div>
         <div className='image-container'>
           <img ref={refBiodiversite} src={biodiversite} className='img-action biodiversite'
             onMouseEnter={() => bounceIn(refBiodiversite.current)}
             onMouseLeave={() => bounceOut(refBiodiversite.current)} />
-          <div ref={overlayBio} className='title-overlay'>Biodiversité</div>
         </div>
       </div>
     </div>

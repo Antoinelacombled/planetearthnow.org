@@ -1,7 +1,8 @@
-.mega-container-axe{
+.mega-container-axe {
     width: 100%;
     height: 100vh;
 }
+
 .mega-container-axe {
     width: 100%;
     height: 100vh;
@@ -104,4 +105,11 @@
 .title-overlay:hover {
     background: none;
     transition: 0.2s ease;
+}
+
+.container-video-axe {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
